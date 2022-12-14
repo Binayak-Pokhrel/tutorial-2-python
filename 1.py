@@ -37,6 +37,7 @@ print(x)
 print(y)
 '''
 
+'''
 #swapping the number
 a = int(input('first no.'))
 b = int(input('Second no.'))
@@ -45,3 +46,14 @@ a = b
 b = temp
 print('a: ',a)
 print('b =',b)
+'''
+'''
+#week 3 lecture practice
+
+a =0
+while a<1:
+    x=int(input('Enter a value'))
+    if (x>4 and x <10):
+        a =1
+        print(x)
+'''
