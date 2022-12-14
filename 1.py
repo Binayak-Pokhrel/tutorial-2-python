@@ -57,3 +57,12 @@ while a<1:
         a =1
         print(x)
 '''
+
+
+#week 3 tutorial practice
+a = int (input('Enter the number\n'))
+
+if (a%2 == 0):
+    print(a,'is even number.')
+else:
+    print(a,'is odd number.')
