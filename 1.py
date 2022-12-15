@@ -58,7 +58,7 @@ while a<1:
         print(x)
 '''
 
-
+'''
 #week 3 tutorial practice
 a = int (input('Enter the number\n'))
 
@@ -66,3 +66,20 @@ if (a%2 == 0):
     print(a,'is even number.')
 else:
     print(a,'is odd number.')
+
+    '''
+
+#2nd no.
+'''
+x = int(input('First Number\n'))
+y = int(input('Secon Number\n'))
+z = int(input('Third Number\n'))
+
+if(x>y and x>z):
+    print(x,'is greater.')
+elif (y>x and y>z):
+    print(y,'is greater')
+elif (z>x and z>y):
+    print(z,'is greater')
+'''
+
