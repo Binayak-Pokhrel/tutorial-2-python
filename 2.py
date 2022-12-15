@@ -66,6 +66,8 @@ else:
 #5 answer
 num = int(input('Enter the no.'))
 
-while (num % i == 0):
-            print(num,'is not prime no.')
-     
+for i in range (1,num):
+    if (num%i==0):
+        print(num,'is not a prime number')
+    elif (num%i!=0):
+        print(num,'is a prime number')
